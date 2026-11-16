@@ -1,0 +1,53 @@
+{
+  "title": "Orange Business — Office Secret Santa",
+  "screenshots_dir": "C:/path/to/browser_sandbox/screenshots",
+  "theme": {
+    "brand_name": "Orange Business",
+    "logo_text": "orange",
+    "accent_color": "#FF7900",
+    "dark_bg": "#000000",
+    "card_bg": "#141414",
+    "text_color": "#FFFFFF",
+    "badge_text_color": "#000000"
+  },
+  "tts": {
+    "engine": "edge-tts",
+    "voice": "en-US-AriaNeural",
+    "rate": "+6%"
+  },
+  "video": {
+    "mp4_name": "demo_tutorial_recording.mp4",
+    "webp_name": "demo_tutorial_recording.webp",
+    "gif_name": "demo_tutorial_recording.gif",
+    "guide_name": "TUTORIAL.md",
+    "fps": 12
+  },
+  "scenes": [
+    {
+      "type": "chapter",
+      "kicker": "PART 1 OF 2 • SETUP",
+      "title": "Admin Configuration & Lock",
+      "bullets": [
+        "Sign into the restricted Admin Portal",
+        "Add colleagues and lock a fair single-cycle draw",
+        "Share the generated link while Admin stays blind"
+      ],
+      "narration": "Part one: Admin setup. Let us sign in, add colleagues, and lock the Secret Santa draw."
+    },
+    {
+      "type": "step",
+      "file": "step_14.png",
+      "step_label": "STEP 01",
+      "phase": "ADMIN SETUP",
+      "headline": "Locked Draw & Strict Blindness",
+      "callout_pos": "auto",
+      "callout_title": "Zero-Knowledge Guarantee",
+      "callout_body": "Only Pending and Claimed status is shown here. Recipients stay hidden from the Admin.",
+      "focus_box": [32, 260, 1210, 740],
+      "cursor_xy": [1080, 350],
+      "zoom_focus": true,
+      "narration": "Once locked, the admin sees only Pending or Claimed status—never who got who.",
+      "export_name": "tutorial_step_01_locked.png"
+    }
+  ]
+}
